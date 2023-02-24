@@ -13,3 +13,9 @@ Useful Terraform modules to work with AWS Storage services.
 ## License
 
 Apache 2 Licensed. See [LICENSE](LICENSE) for full details.
+
+
+## TODO
+
+  * automated backups in production
+  * prevent destroy in production
