@@ -19,7 +19,7 @@ module "my_efs_file_system" {
 }
 ```
 
-_See also_: [examples/efs-file-system.tf](../examples/efs-file-system.tf)
+_See also_: [examples/efs-file-system.tf](examples/efs-file-system.tf)
 
 
 ## Requirements
