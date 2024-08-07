@@ -18,7 +18,7 @@ variable "subnet_id" {
   type        = string
 }
 
-variable "kms_key" {
-  description = "AWS KMS Customer-managed key alias for EFS File System encryption"
+variable "kms_key_id" {
+  description = "AWS KMS Customer-managed key ID for EFS File System encryption"
   type        = string
 }

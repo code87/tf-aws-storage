@@ -3,5 +3,5 @@ data "aws_vpc" "vpc" {
 }
 
 data "aws_kms_key" "kms_key" {
-  key_id = "alias/${var.kms_key}"
+  key_id = var.kms_key_id
 }
