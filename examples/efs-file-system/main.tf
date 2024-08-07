@@ -32,7 +32,7 @@ resource "aws_kms_key" "my_kms_key" {
 }
 
 module "my_efs_file_system" {
-  source = "../modules/efs-file-system"
+  source = "../../modules/efs-file-system"
 
   file_system_name = "test-project-uploads"
   name_prefix      = "test-project-staging"
